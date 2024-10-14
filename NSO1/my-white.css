@@ -357,3 +357,36 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
     background-color: var(--r-background-color);
   }
 }
+
+.reveal .slides section .fragment.step-fade-in-then-out {
+	opacity: 0;
+	display: none; 
+}
+.reveal .slides section .fragment.step-fade-in-then-out.current-fragment {
+	opacity: 1;
+	display: inline; 
+}
+.twocolumn {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   text-align: left;
+}
+.untwo {
+   display: grid;
+   grid-template-columns: .7fr 1.3fr;
+   grid-gap: 10px;
+   text-align: left;
+}
+.tworl {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   grid-gap: 10px;
+   text-align: center;
+}
+.ref {
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-gap: 10px;
+   text-align: left;
+}
